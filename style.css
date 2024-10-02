@@ -1,0 +1,137 @@
+
+.contact{
+    background-color: #cce3de;
+    /* color: white; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 8vw;
+    padding-top: 80px;
+    margin-top: 100px;
+
+}
+.contact-footer{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 80px;
+}
+
+.contact-left , .contact-right, .contact-center {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+
+.contact-left li, .contact-right li, .contact-center li{
+    list-style: none;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.icons i{
+    width: 50px;
+    font-size: 30px; 
+    cursor: pointer;
+}
+
+.carousal{
+    margin-top: 100px;
+    height: 500px;
+}
+.img{
+    font-size: 30px;
+    width: 200px;
+    background: linear-gradient(to right, rgb(236, 59, 198),rgb(50, 247, 11));
+    background-clip: text;
+    color: transparent;
+}
+
+/* footer */
+footer{
+    background-color: rgb(182, 183, 179);
+    text-align: center;
+    padding: 10px;
+}
+
+
+.place{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.place-1{
+    border:1px solid black;
+    height: 500px;
+    width: 370px;
+    border-radius: 15px;
+    background-color:  #cce3de;
+    text-align: center;
+}
+.place-1 img{
+    width: 350px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.visit h1{
+    font-size: 30px;
+}
+.visit p{
+    font-weight: bold;
+}
+.visit p a{
+    color: black;
+}
+
+.box{
+    width: 300px;
+    height: 250px;
+    background: url("https://thumbs.dreamstime.com/b/wallfall-scenery-china-guizhou-chishui-terrace-52720421.jpg") no-repeat;
+     background-size: cover;
+     position: relative;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+@media (max-width: 750px){
+    .about{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .box{
+        align-items: center;
+    }
+    .visit{
+        align-items: center;
+    }
+    .place{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .place-1{
+        margin-top: 10px;
+    }
+    
+.visit h1{
+    font-size: 20px;
+}
+
+    .contact-footer{
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+    }
+    .footer{
+        text-align: center;
+    }
+}
