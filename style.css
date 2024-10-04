@@ -96,6 +96,10 @@ footer{
     border-radius: 10px;
 }
 
+.visit{
+    width: 500px;
+    margin: 100px
+}
 .visit h1{
     font-size: 30px;
 }
@@ -112,6 +116,7 @@ footer{
     background: url("https://thumbs.dreamstime.com/b/wallfall-scenery-china-guizhou-chishui-terrace-52720421.jpg") no-repeat;
      background-size: cover;
      position: relative;
+    margin-top: 75px; 
 }
 .about{
     display: flex;
@@ -129,6 +134,14 @@ footer{
         margin-top: 30px;
         margin-right: 10px;
     }
+    .visit h1{
+        font-size: 30px;
+    }
+    .visit{
+        width: 400px;
+        align-items:center;
+        margin: 40px;
+    }
 }
 
 
@@ -141,8 +154,9 @@ footer{
     .box{
         align-items: center;
     }
-    .visit{
+   .visit{
         align-items: center;
+        margin: 20px;
     }
     .place{
         display: flex;
@@ -153,9 +167,9 @@ footer{
         margin-top: 10px;
     }
     
-.visit h1{
-    font-size: 20px;
-}
+    .visit h1{
+        font-size: 20px;
+    }
 
     .contact-footer{
         display: flex;
