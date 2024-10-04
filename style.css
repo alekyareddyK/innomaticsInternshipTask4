@@ -117,6 +117,7 @@ footer{
      background-size: cover;
      position: relative;
     margin-top: 75px; 
+    margin-right: 40px;
 }
 .about{
     display: flex;
